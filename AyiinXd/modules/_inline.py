@@ -41,12 +41,12 @@ async def inline_handler(event):
     user = await Ayiin.get_me()
     uid = user.id
     if event.query.user_id == user.id and query.startswith(
-            "@AyiinChats"):
+            "@cari_kawanindonesia"):
         buttons = paginate_help(0, CMD_HELP, "helpme")
         result = await event.builder.photo(
             file=logoyins,
             link_preview=False,
-            text=f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(CMD_HELP)} **Modules**",
+            text=f"**✨ ᴀsɪsᴛᴇɴ ʙᴇᴇ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(CMD_HELP)} **Modules**",
             buttons=main_help_button,
         )
     elif query.startswith("repo"):
@@ -59,12 +59,12 @@ async def inline_handler(event):
                 0,
                 "image/jpeg",
                 []),
-            text="**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinChats\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+            text="**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @cari_kawanindonesia\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
             buttons=[
                 [
                     custom.Button.url(
                         "ɢʀᴏᴜᴘ",
-                        "https://t.me/AyiinChats"),
+                        "https://t.me/cari_kawanindonesia"),
                     custom.Button.url(
                         "ʀᴇᴘᴏ",
                         "https://github.com/AyiinXd/Ayiin-Userbot"),
@@ -106,7 +106,7 @@ async def inline_handler(event):
         )
     else:
         result = builder.article(
-            title="✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✨",
+            title="✨ ᴀsɪsᴛᴇɴ ʙᴇᴇ ✨",
             description="Ayiin - Userbot | Telethon",
             url="https://t.me/AyiinChannel",
             thumb=InputWebDocument(
