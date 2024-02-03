@@ -24,10 +24,10 @@ main_help_button = [
 ]
 logoyins = random.choice(
     [
-        "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg",
-        "https://telegra.ph/file/c935d34b48e45fba22b03.jpg",
-        "https://telegra.ph/file/392f69c8717c91b1e8a3b.jpg",
-        "https://telegra.ph/file/4c5b756dd13d7a88c866b.jpg",
+        "https://telegra.ph/file/4ef064aa72d954fcf1200.jpg",
+        "https://telegra.ph/file/727430c71e836bf658fcc.jpg",
+        "https://telegra.ph/file/cbf657fd4d1c099ee72ea.jpg",
+        "https://telegra.ph/file/43631e0cd082796adad26.jpg",
     ]
 )
 
@@ -41,7 +41,7 @@ async def inline_handler(event):
     user = await Ayiin.get_me()
     uid = user.id
     if event.query.user_id == user.id and query.startswith(
-            "@cari_kawanindonesia"):
+            "@cari_teman_pacar1"):
         buttons = paginate_help(0, CMD_HELP, "helpme")
         result = await event.builder.photo(
             file=logoyins,
@@ -64,7 +64,7 @@ async def inline_handler(event):
                 [
                     custom.Button.url(
                         "ɢʀᴏᴜᴘ",
-                        "https://t.me/cari_kawanindonesia"),
+                        "https://t.me/cari_teman_pacar1"),
                     custom.Button.url(
                         "ʀᴇᴘᴏ",
                         "https://github.com/AyiinXd/Ayiin-Userbot"),
