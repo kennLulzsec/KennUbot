@@ -42,7 +42,7 @@ DEF_UNAPPROVED_MSG =  (
 ⍟ 𝙹𝙰𝙳𝙸 𝚃𝚄𝙽𝙶𝙶𝚄 𝚂𝙰𝙼𝙿𝙰𝙸 𝙼𝙰𝙹𝙸𝙺𝙰𝙽 𝙶𝚄𝙰 𝙽𝙴𝚁𝙸𝙼𝙰 𝙿𝙴𝚂𝙰𝙽 𝙻𝚄
 ╔═════════════════════╗
 │ㅤㅤ𖣘 𝙿𝙴𝚂𝙰𝙽 𝙾𝚃𝙾𝙼𝙰𝚃𝙸𝚂 𖣘ㅤㅤ      
-│ㅤㅤ𖣘 𝙰𝚈𝙸𝙸𝙽 - 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𖣘ㅤㅤ   
+│ㅤㅤ𖣘 Kenn - 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𖣘ㅤㅤ   
 ╚═════════════════════╝
 """
 )
@@ -80,7 +80,7 @@ async def permitpm(event):
                         await Ayiin.send_message(var.BOTLOG_CHATID, f"**#AUTO_APPROVED_DEVELOPER**\n\n👑 **Developer:** [{sender.first_name}](tg://user?id={sender.id})\n💬 `Developer Ayiin-Userbot Telah Mengirimi Anda Pesan...`")
                         await Ayiin.send_message(
                             event.chat_id,
-                            f"**Menerima Pesan!!!**\n**Terdeteksi [{sender.first_name}](tg://user?id={sender.id}) Adalah Developer Ayiin-Userbot**"
+                            f"**Menerima Pesan!!!**\n**Terdeteksi [{sender.first_name}](tg://user?id={sender.id}) Adalah Developer Kenn-Userbot**"
                         )
                         return
                     except BaseException as e:
