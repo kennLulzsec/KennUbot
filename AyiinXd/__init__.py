@@ -41,7 +41,7 @@ var = Config()
 if var.STRING_SESSION:
     session = validate_session(var.STRING_SESSION)
 else:
-    session = "ObyUserBot"
+    session = "KennUserBot"
 try:
     Ayiin = TelegramClient(
         session=session,
