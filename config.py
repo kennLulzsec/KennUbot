@@ -98,8 +98,8 @@ class Config(object):
     SUDO_HANDLER = getenv("SUDO_HANDLER", r"$")
 
     # Support
-    GROUP = getenv("GROUP", "cari_teman_pacar1")
-    CHANNEL = getenv("CHANNEL", "JoWoSaD")
+    GROUP = getenv("GROUP", "cari_kawanindonesia")
+    CHANNEL = getenv("CHANNEL", "Cari_Teman_Mutualan_Indo")
 
     # Heroku Credentials for updater.
     HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -144,10 +144,10 @@ class Config(object):
     # untuk perintah teks costum .alive
     ALIVE_TEKS_CUSTOM = getenv(
         "ALIVE_TEKS_CUSTOM",
-        "Hey, Saya pengguna Troxy-Userbot")
+        "Hey, Saya pengguna Kenn-Userbot")
 
     # Default .alive name
-    ALIVE_NAME = getenv("ALIVE_NAME", "Troxy_Drake")
+    ALIVE_NAME = getenv("ALIVE_NAME", "Kenn")
 
     # Custom Emoji Alive
     ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🎗️")
@@ -176,14 +176,14 @@ class Config(object):
 
     # Default .alive logo
     ALIVE_LOGO = (getenv("ALIVE_LOGO")
-                or "https://telegra.ph/file/f5c795a1df13e699e147c.jpg")
+                or "https://telegra.ph/file/e1fc879ce00e08e9100e8.jpg")
 
     INLINE_PIC = (getenv("INLINE_PIC")
-                or "https://telegra.ph/file/50a4a45737d6cfd49f30e.jpg")
+                or "https://telegra.ph/file/cbf657fd4d1c099ee72ea.jpg")
 
     # Picture For VCPLUGIN
     PLAY_PIC = (getenv("PLAY_PIC")
-                or "https://telegra.ph/file/f541beab25e367d72c9ef.jpg")
+                or "https://telegra.ph/file/cb1d783361c97b09efeb5.jpg")
 
     QUEUE_PIC = (getenv("QUEUE_PIC")
                 or "https://telegra.ph/file/9a51c43d84a981f8360f6.jpg")
