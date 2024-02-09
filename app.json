@@ -1,8 +1,8 @@
 {
-  "name": "⋆ Troxy-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
-  "description": "[Troxy-Userbot] Userbot Hanya Untuk Bersenang - Senang",
-  "logo": "https://telegra.ph/file/50a4a45737d6cfd49f30e.jpg",
-  "keywords": ["telegram", "userbot", "Troxy-Userbot", "modular", "python"],
+  "name": "⋆ Kenn-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
+  "description": "[Kenn-Userbot] Userbot Hanya Untuk Bersenang - Senang",
+  "logo": "https://telegra.ph/file/e1fc879ce00e08e9100e8.jpg",
+  "keywords": ["telegram", "userbot", "Kenn-Userbot", "modular", "python"],
   "repository": "https://github.com/AyiinXd/Ayiin-Userbot",
   "stack": "container",
   "env": {
